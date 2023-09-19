@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Dancing Script', cursive;
     font-family: 'Kanit', sans-serif;
 } 
 
@@ -86,53 +85,49 @@ header{
 
 
 
+.attributeA,.attributeB,.attributeC,.attributeD,.attributeE,.attributeF{
+    border-radius: 5px;
+    color: white;  
+}
+
 .attributeA{
     
     background-color: rgb(0, 200, 255);
-    border-radius: 5px;
-    color: white;
     border:1px solid rgb(0, 200, 255);
 }
 
 .attributeB{
     
     background-color:purple ;
-    border-radius: 5px;
-    color: white;
     border:1px solid purple;
 }
 
 .attributeC{
     
     background-color: rgb(0, 175, 100);
-    border-radius: 5px;
-    color: white;
     border:1px solid rgb(0, 175, 100);
 }
 
 .attributeD{
     
     background-color: orange;
-    border-radius: 5px;
-    color: white;
     border:1px solid orange;
-}
-
-.attributeF{
-    
-    background-color:greenyellow;
-    border-radius: 5px;
-    color: white;
-    border:1px solid greenyellow;
 }
 
 .attributeE{
     
     background-color:palevioletred;
-    border-radius: 5px;
-    color: white;
     border:1px solid palevioletred;
 }
+
+.attributeF{
+    
+    background-color:greenyellow;
+
+    border:1px solid greenyellow;
+}
+
+
 
 .scritteA{
     margin: 20px;
