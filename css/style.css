@@ -1,13 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kanit', sans-serif;
+} 
+
+body{
+    background-color: lightgrey;
+}
+
+
+header{
+    background-color: rgb(255,255,255);
+
+}
+
 #logo{  
     vertical-align: middle;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
 
 #titolo{
     margin-bottom: 10px;
-    font-size: 4em;
+    font-size: 3em;
     vertical-align: middle;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+}
+
+#container{
+    width:1000px;
+    height:650px;
+    background-color:rgb(255,255,255) ;
+    margin: auto;
+    margin-top: 30px;
+    border-radius:10px;
+}
+
+#BoxA{
+    width: 1000px;
+    height: 80px;
+    border:1px solid lightgrey;
+}
+
+#content{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#pulsanti{
+    margin: 30px;;
+    margin-left: 100px;
+}
+
+#bottoneB,#bottoneA{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#bottoneA{
+    background-color:#7dccf7;
+}
+
+#bottoneB{
+    background-color:rgb(230,230,230);
+}
+
+.check{
+    border-radius: 100px;
+    border: 1px solid rgba(0, 255, 0, 0.501);
+    color: rgba(0, 255, 0, 0.501);
+}
+
+.cross{
+    border-radius: 100px;
+    border: 1px solid rgb(180, 0, 0);
+    color: rgb(180, 0, 0);
+}
+
+.scritte{
+    font-size:  20px;
+    color:grey;
+    margin: 10px;
+}
+
+
+
+.attributeA{
+    
+    background-color: rgb(0, 200, 255);
+    border-radius: 5px;
+    color: white;
+    border:1px solid rgb(0, 200, 255);
+}
+
+.attributeB{
+    
+    background-color:purple ;
+    border-radius: 5px;
+    color: white;
+    border:1px solid purple;
+}
+
+.attributeC{
+    
+    background-color: rgb(0, 175, 100);
+    border-radius: 5px;
+    color: white;
+    border:1px solid rgb(0, 175, 100);
+}
+
+.attributeD{
+    
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    border:1px solid orange;
+}
+
+.attributeF{
+    
+    background-color:greenyellow;
+    border-radius: 5px;
+    color: white;
+    border:1px solid greenyellow;
+}
+
+.attributeE{
+    
+    background-color:palevioletred;
+    border-radius: 5px;
+    color: white;
+    border:1px solid palevioletred;
+}
+
+.scritteA{
+    margin: 20px;
+    margin-left: 0;
 }
