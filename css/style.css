@@ -1,0 +1,13 @@
+#logo{  
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+}
+
+#titolo{
+    margin-bottom: 10px;
+    font-size: 4em;
+    vertical-align: middle;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kanit', sans-serif;
+}
